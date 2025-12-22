@@ -1,0 +1,156 @@
+units:
+  kx: cx
+  ky: cy
+  px: kx + 4
+  py: ky + 4
+points:
+  zones:
+    matrix:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        shift: [100, -100]
+        rotate: 20
+      columns:
+        pinky:
+        ring:
+          key.splay: -5.5
+          key.origin: [-12, -19]
+          key.stagger: 8
+        middle:
+          key.splay: -5.5
+          key.stagger: 7
+          key.spread: 1.1kx
+        index:
+          key.stagger: -8
+        inner:
+          key.stagger: -2
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [1, -20]
+      columns:
+        near:
+        home:
+          key.spread: 20
+          key.splay: -28
+          key.origin: [-11.75, -9]
+        far:
+          key.spread: 20
+          key.splay: -28
+          key.origin: [-9.5, -9]
+      rows:
+        thumb:
+    pinky-extra:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        ref: matrix_pinky_bottom
+        shift: [-kx, 5]
+      columns:
+        pinky2:
+      rows:
+        extra1:
+        extra2:
+
+  rotate: -20
+outlines:
+  board1:
+    - what: rectangle
+      where: true
+      size: [px, py]
+    - what: rectangle
+      where: matrix_pinky_top
+      adjust.shift: [1px, .1py]
+      size: [3px, .8py]
+
+    - what: rectangle
+      where: matrix_ring_top
+      adjust.shift: [.5px, .1py]
+      size: [0.2px, .8py]
+
+    - what: rectangle
+      where: thumbfan_near_thumb
+      adjust.shift: [-.1px, 0py]
+      size: [.89px, 1py]
+    - what: rectangle
+      where: matrix_index_top
+      adjust.shift: [0px, 0.099py]
+      size: [px, 1py]
+    - what: rectangle
+      where: matrix_inner_top
+      adjust.shift: [1px, .5py]
+      size: [px, 1py]
+
+  popa:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: thumbfan_near_thumb
+          shift: [0px, .5py]
+        - ref: thumbfan_home_thumb
+          shift: [-.5px, .5py]
+        - ref: thumbfan_home_thumb
+          shift: [.5px, .5py]
+        - ref: thumbfan_far_thumb
+          shift: [-.5px, .5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px, .5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px, -.5py]
+        - ref: thumbfan_home_thumb
+          shift: [.5px, -.5py]
+        - ref: thumbfan_near_thumb
+          shift: [0.3px, -.5py]
+
+  keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5, ky-0.5]
+  board:
+    - name: board1
+    - operation: add
+      name: popa
+    - operation: subtract
+      name: keys
+      fillet: 2
+pcbs:
+  left:
+    outlines:
+      main:
+        outline: board
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      nicenano:
+        what: ceoloide/mcu_nice_nano
+        params:
+          side: B
+        where:
+          ref: matrix_inner_top
+          shift: [1, 1]
+          rotate: -90
