@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "temp")(type "KiCad")(uri "/home/geoll/keyboard/babayka/ergogen/left/output/temp.pretty")(options "")(descr ""))
+)
