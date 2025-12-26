@@ -80,6 +80,9 @@ points:
           row_net: P0
         extra2:
           row_net: P1
+  mirror:
+    ref: thumbfan_far_thumb
+    distance: 3kx
 
 outlines:
   board1:
@@ -109,6 +112,28 @@ outlines:
       adjust.shift: [.9px, -1.3py]
       size: [.9px, 3.6py]
 
+    - what: rectangle
+      where: mirror_matrix_pinky_top
+      adjust.shift: [1px, .1py]
+      size: [3px, .8py]
+
+    - what: rectangle
+      where: mirror_matrix_ring_top
+      adjust.shift: [.5px, .1py]
+      size: [0.2px, .8py]
+    - what: rectangle
+      where: mirror_thumbfan_near_thumb
+      adjust.shift: [-.1px, 0py]
+      size: [.89px, 1py]
+    - what: rectangle
+      where: mirror_matrix_index_top
+      adjust.shift: [0px, 0.099py]
+      size: [px, 1py]
+    - what: rectangle
+      where: mirror_matrix_inner_top
+      adjust.shift: [.9px, -1.3py]
+      size: [.9px, 3.6py]
+
   popa:
     - what: polygon
       operation: stack
@@ -129,6 +154,25 @@ outlines:
           shift: [.5px, -.5py]
         - ref: thumbfan_near_thumb
           shift: [0.3px, -.5py]
+    - what: polygon
+      operation: stack
+      points:
+        - ref: mirror_thumbfan_near_thumb
+          shift: [0px, .5py]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [-.5px, .5py]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [.5px, .5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [-.5px, .5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [.5px, .5py]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [.5px, -.5py]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [.5px, -.5py]
+        - ref: mirror_thumbfan_near_thumb
+          shift: [0.3px, -.5py]
 
   keys:
     - what: rectangle
@@ -141,8 +185,8 @@ outlines:
       #    - operation: subtract
       #      name: keys
       fillet: 2
+
 pcbs:
-  mirror:
   right:
     template: kicad8
     outlines:
@@ -174,7 +218,7 @@ pcbs:
           to: RST
           include_courtyard: true
         where:
-          ref: matrix_inner_top
+          ref: mirror_matrix_inner_top
           shift: [-.9px, 0.5py]
           rotate: 0
       power:
@@ -182,19 +226,19 @@ pcbs:
         params:
           side: B
         where:
-          ref: matrix_inner_top
+          ref: mirror_matrix_inner_top
           shift: [.2px, .5py]
           rotate: 90
       slider:
         what: ceoloide/rotary_encoder_ec11_ec12
         where:
-          ref: thumbfan_near_thumb
+          ref: mirror_thumbfan_near_thumb
           shift: [1px, 1py]
           rotate: 90
       batt-con:
         what: ceoloide/battery_connector_jst_ph_2
         where:
-          ref: matrix_inner_top
+          ref: mirror_matrix_inner_top
           shift: [1px, -.2py]
           rotate: -90
         params:
