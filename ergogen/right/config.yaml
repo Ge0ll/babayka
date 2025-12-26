@@ -209,7 +209,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [3, -5]
+          shift: [-3, -5]
       reset:
         what: ceoloide/reset_switch_smd_side
         params:
