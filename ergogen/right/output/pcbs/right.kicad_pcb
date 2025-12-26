@@ -2705,7 +2705,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 104.5291786 103.6724027 20)
+        (at 98.8910229 105.7245235 20)
         (property "Reference" "D1"
             (at 0 0 20)
             (layer "B.SilkS")
@@ -2729,7 +2729,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 98.7148362 87.6976281 20)
+        (at 93.0766805 89.7497489 20)
         (property "Reference" "D2"
             (at 0 0 20)
             (layer "B.SilkS")
@@ -2753,7 +2753,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 92.90049379999999 71.7228535 20)
+        (at 87.2623381 73.7749743 20)
         (property "Reference" "D3"
             (at 0 0 20)
             (layer "B.SilkS")
@@ -2777,7 +2777,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 120.4172718 90.974731 14.5)
+        (at 114.608386 92.477011 14.5)
         (property "Reference" "D4"
             (at 0 0 14.5)
             (layer "B.SilkS")
@@ -2801,7 +2801,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 116.1608117 74.51622110000001 14.5)
+        (at 110.3519259 76.01850110000001 14.5)
         (property "Reference" "D5"
             (at 0 0 14.5)
             (layer "B.SilkS")
@@ -2825,7 +2825,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 111.9043516 58.057711200000014 14.5)
+        (at 106.0954658 59.55999120000001 14.5)
         (property "Reference" "D6"
             (at 0 0 14.5)
             (layer "B.SilkS")
@@ -2849,7 +2849,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 137.4228294 79.61971349999999 9)
+        (at 131.4966994 80.55832029999999 9)
         (property "Reference" "D7"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2873,7 +2873,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 134.76344350000002 62.82901169999999 9)
+        (at 128.83731350000002 63.76761849999999 9)
         (property "Reference" "D8"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2897,7 +2897,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 132.10405760000003 46.03830989999999 9)
+        (at 126.17792760000002 46.97691669999999 9)
         (property "Reference" "D9"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2921,7 +2921,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 156.45269530000002 84.70539989999999 9)
+        (at 150.52656530000002 85.64400669999999 9)
         (property "Reference" "D10"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2945,7 +2945,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 153.79330940000003 67.9146981 9)
+        (at 147.86717940000003 68.85330489999998 9)
         (property "Reference" "D11"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2969,7 +2969,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 151.13392350000004 51.12399629999999 9)
+        (at 145.20779350000004 52.06260309999999 9)
         (property "Reference" "D12"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -2993,7 +2993,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 174.54395440000002 83.86495609999999 9)
+        (at 168.61782440000002 84.80356289999999 9)
         (property "Reference" "D13"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -3017,7 +3017,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 171.88456850000003 67.07425429999999 9)
+        (at 165.95843850000003 68.01286109999998 9)
         (property "Reference" "D14"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -3041,7 +3041,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 169.22518260000004 50.283552499999985 9)
+        (at 163.29905260000004 51.22215929999999 9)
         (property "Reference" "D15"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -3065,7 +3065,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 178.660332 103.46228839999999 9)
+        (at 172.734202 104.4008952 9)
         (property "Reference" "D16"
             (at 0 0 9)
             (layer "B.SilkS")
@@ -3089,7 +3089,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 199.72010530000003 107.61181679999999 -19)
+        (at 194.04699380000002 105.65840789999999 -19)
         (property "Reference" "D17"
             (at 0 0 -19)
             (layer "B.SilkS")
@@ -3113,7 +3113,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 216.9596163 120.24958 -47)
+        (at 212.8676261 115.8614578 -47)
         (property "Reference" "D18"
             (at 0 0 -47)
             (layer "B.SilkS")
@@ -3137,7 +3137,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 85.90461069999999 105.1303022 20)
+        (at 80.266455 107.182423 20)
         (property "Reference" "D19"
             (at 0 0 20)
             (layer "B.SilkS")
@@ -3161,7 +3161,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 80.09026829999999 89.1555276 20)
+        (at 74.45211259999999 91.2076484 20)
         (property "Reference" "D20"
             (at 0 0 20)
             (layer "B.SilkS")
@@ -3185,7 +3185,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 386.61160079999996 103.6724027 -20)
+        (at 392.2497565 105.7245235 -20)
         (property "Reference" "D21"
             (at 0 0 -20)
             (layer "B.SilkS")
@@ -3209,7 +3209,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 392.42594319999995 87.6976281 -20)
+        (at 398.0640989 89.7497489 -20)
         (property "Reference" "D22"
             (at 0 0 -20)
             (layer "B.SilkS")
@@ -3233,7 +3233,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 398.2402856 71.7228535 -20)
+        (at 403.8784413 73.7749743 -20)
         (property "Reference" "D23"
             (at 0 0 -20)
             (layer "B.SilkS")
@@ -3257,7 +3257,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 370.72350759999995 90.974731 -14.5)
+        (at 376.5323934 92.477011 -14.5)
         (property "Reference" "D24"
             (at 0 0 -14.5)
             (layer "B.SilkS")
@@ -3281,7 +3281,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 374.9799677 74.51622110000001 -14.5)
+        (at 380.7888535 76.01850110000001 -14.5)
         (property "Reference" "D25"
             (at 0 0 -14.5)
             (layer "B.SilkS")
@@ -3305,7 +3305,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 379.23642779999994 58.057711200000014 -14.5)
+        (at 385.0453136 59.55999120000001 -14.5)
         (property "Reference" "D26"
             (at 0 0 -14.5)
             (layer "B.SilkS")
@@ -3329,7 +3329,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 353.71795 79.61971349999999 -9)
+        (at 359.64408 80.55832029999999 -9)
         (property "Reference" "D27"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3353,7 +3353,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 356.3773359 62.82901169999999 -9)
+        (at 362.3034659 63.76761849999999 -9)
         (property "Reference" "D28"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3377,7 +3377,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 359.0367218 46.03830989999999 -9)
+        (at 364.9628518 46.97691669999999 -9)
         (property "Reference" "D29"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3401,7 +3401,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 334.68808409999997 84.70539989999999 -9)
+        (at 340.61421409999997 85.64400669999999 -9)
         (property "Reference" "D30"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3425,7 +3425,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 337.34747 67.9146981 -9)
+        (at 343.2736 68.85330489999998 -9)
         (property "Reference" "D31"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3449,7 +3449,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 340.0068559 51.12399629999999 -9)
+        (at 345.9329859 52.06260309999999 -9)
         (property "Reference" "D32"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3473,7 +3473,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 316.59682499999997 83.86495609999999 -9)
+        (at 322.52295499999997 84.80356289999999 -9)
         (property "Reference" "D33"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3497,7 +3497,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 319.2562109 67.07425429999999 -9)
+        (at 325.1823409 68.01286109999998 -9)
         (property "Reference" "D34"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3521,7 +3521,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 321.9155968 50.283552499999985 -9)
+        (at 327.8417268 51.22215929999999 -9)
         (property "Reference" "D35"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3545,7 +3545,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 312.4804474 103.46228839999999 -9)
+        (at 318.4065774 104.4008952 -9)
         (property "Reference" "D36"
             (at 0 0 -9)
             (layer "B.SilkS")
@@ -3569,7 +3569,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 291.4206741 107.61181679999999 19)
+        (at 297.0937856 105.65840789999999 19)
         (property "Reference" "D37"
             (at 0 0 19)
             (layer "B.SilkS")
@@ -3593,7 +3593,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 274.1811631 120.24958 47)
+        (at 278.2731533 115.8614578 47)
         (property "Reference" "D38"
             (at 0 0 47)
             (layer "B.SilkS")
@@ -3617,7 +3617,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 405.23616869999995 105.1303022 -20)
+        (at 410.8743244 107.182423 -20)
         (property "Reference" "D39"
             (at 0 0 -20)
             (layer "B.SilkS")
@@ -3641,7 +3641,7 @@
 
     (footprint "ceoloide:diode_tht_sod123"
         (layer "B.Cu")
-        (at 411.0505111 89.1555276 -20)
+        (at 416.6886668 91.2076484 -20)
         (property "Reference" "D40"
             (at 0 0 -20)
             (layer "B.SilkS")
