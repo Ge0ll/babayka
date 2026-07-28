@@ -243,3 +243,17 @@ pcbs:
           rotate: -90
         params:
           side: B
+cases:
+  case_bottom:
+    - name: board
+      extrude: 1 # Creates a 1mm thick solid base
+  case_wall:
+    - name: _outerWall
+      extrude: wallHeight
+    - operation: subtract
+      name: _innerWall
+      extrude: wallHeight
+  finished_case:
+    - name: case_bottom
+    - operation: add
+      name: case_wall
